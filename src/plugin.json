@@ -1,7 +1,8 @@
 {
   "type": "panel",
-  "name": "Graph Panel",
-  "id": "corpglory-graph-panel",
+  "name": "Graph Panel Template",
+
+  "id": "graph-panel-template-panel",
 
   "info": {
     "author": {
