@@ -13,7 +13,7 @@ npm run build
 
 # After you fork
 
-Sorry, but it`s common for Grafana plugins make directives which collides with each other. It comes from AngularJS.
+Sorry, but it's common for Grafana plugins make directives which collides with each other. It comes from AngularJS.
 Use `ctrl+f` to find params ic source code.
 
 * Change in `plugin.json` id from `graph-panel-template-panel` to `something-else-graph-panel`
