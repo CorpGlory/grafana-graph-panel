@@ -26,6 +26,8 @@ Use `ctrl+f` to find params in source code files below:
 
 # Credits
 
+Made by [CorpGlory Dev Team](https://corpglory.com)
+
 Based on 
 
 * [grafana-plugin-template-webpack-typescript](https://github.com/CorpGlory/grafana-plugin-template-webpack-typescript) 
