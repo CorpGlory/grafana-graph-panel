@@ -286,7 +286,7 @@ class GraphCtrl extends MetricsPanelCtrl {
     }
   }
 
-  toggleAxis(info) {
+  toggleAxis(info: { alias: _.PartialDeep<{}>; yaxis: number; }) {
     var override = _.find(this.panel.seriesOverrides, { alias: info.alias });
     if (!override) {
       override = { alias: info.alias };

@@ -470,13 +470,13 @@ function graphDirective(timeSrv, popoverSrv, contextSrv) {
       }
 
       function addXTableAxis(options) {
-        var ticks = _.map(data, function(series: any, seriesIndex) {
+        var ticks = _.map(data, function(series: any, seriesIndex: number) {
           return _.map(series.datapoints, function(point, pointIndex) {
             var tickIndex = seriesIndex * series.datapoints.length + pointIndex;
             return [tickIndex + 1, point[1]];
           });
         });
-        ticks = _.flatten(ticks, true);
+        ticks = _.flatten(ticks);
 
         options.xaxis = {
           timezone: dashboard.getTimezone(),
