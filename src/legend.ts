@@ -5,7 +5,7 @@ import PerfectScrollbar from 'perfect-scrollbar';
 
 var module = angular.module('grafana.directives');
 
-module.directive('graphTemplateLegend', function(popoverSrv, $timeout) {
+module.directive('discreteLegend', function(popoverSrv, $timeout) {
   return {
     link: function(scope: any, elem) {
       var firstRender = true;

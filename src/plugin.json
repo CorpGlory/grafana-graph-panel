@@ -1,8 +1,8 @@
 {
   "type": "panel",
-  "name": "Graph Panel Template",
+  "name": "Discrete Graph Panel",
 
-  "id": "graph-panel-template-panel",
+  "id": "discrete-graph-panel",
 
   "info": {
     "author": {

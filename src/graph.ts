@@ -710,4 +710,4 @@ function graphDirective(timeSrv, popoverSrv, contextSrv) {
   };
 }
 
-coreModule.directive('grafanaTemplateGraph', graphDirective);
+coreModule.directive('discreteGraph', graphDirective);
