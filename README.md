@@ -1,3 +1,6 @@
+## THIS REPO IS NOT SUPPORTED, ONLY FOR EDU PURPOSES
+
+
 # Graph Panel
 
 Webpack copy of [Grafana default panel](http://docs.grafana.org/features/panels/graph/). 
